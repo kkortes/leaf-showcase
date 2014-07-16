@@ -6,10 +6,15 @@
       </p>
       <p>~ Under construction <span class="small">(as of 9th of July 2014)</span> ~
       </p>
-      <p>If you are eager to try Leaf out before the official release it's totally fine to download <i>this</i> project (including all php-files + project specific css).<br /><br />
+      <p>Download here (CSS/JS)
+      </p>
+      <p>
       <a href="http://github.com/kkortes/leaf" class="button" target="_blank"><i class="icon icon-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github</a>
-      <br /><br />
-      Also! Feel free to contribute. I appreciate all the help that I can get. Feedback on this project is also very helpful.
+      </p>
+      <p>If you want to try out Leaf without setting up a whole new project you can simply download <a href="http://github.com/kkortes/leaf-showcase" target="_blank">this web</a> and play around with it (including php-files and project specific css).
+      </p>
+      <p>
+      Also! Feel free to contribute. I appreciate all the help that I can get. Feedback is also very helpful.
       </p>
       <p>You can reach me at <a href="http://twitter.com/kortekim" target="_blank">@kortekim</a> or <a href="mailto:kim@kortes.se">kim@kortes.se</a>.
       </p>
@@ -33,9 +38,11 @@
       <br />
       ~ I'm running <a href="https://incident57.com/codekit/" target="_blank">Codekit</a> to compile all of the .styl's and .coffee's, but you can set up a grunt if you feel like.
       <br />
-      ~ <i>This project</i> is based on <a href="http://gettopbot.eu" target="_blank">Topbot</a> which is really easy to understand and use.
+      ~ <i>This web</i> is based on <a href="http://gettopbot.eu" target="_blank">Topbot</a> which is really easy to understand and use.
       <br />
       ~ In /leaf (from project root) you'll find everything that will be in the final release, here's were you want to put your code.
+      <br />
+      ~ For retina ready icons I've chosen to go with <a href="http://icomoon.io" target="_blank">Icomoon</a>. Icomoon is free and awesome and if you don't know it yet, get to know it! No regrets.
       </p>
       <h2>Most importantly</h2>
       <p>Nothing is set. The idea is clear, but the final product is not decided. If you contribute to this project you'll have your name on it upon release and beyond.
