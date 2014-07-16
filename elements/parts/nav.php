@@ -21,7 +21,7 @@
               }
               $name = str_replace('-', '/', $page[0]);
             ?>
-              <li><a href="<?=$app->url?>component/type/<?=$page[0]?>" class="<?=$class?> list-item"><?=ucfirst($name)?></a></li>
+              <li><a href="<?=$app->url?>component/type/<?=$page[0]?>" class="<?=$class?> waves-effect list-item"><?=ucfirst($name)?></a></li>
             <?
             }
           }

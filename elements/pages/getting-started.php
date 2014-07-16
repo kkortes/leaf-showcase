@@ -9,7 +9,7 @@
       <p>Download here (CSS/JS)
       </p>
       <p>
-      <a href="http://github.com/kkortes/leaf" class="button" target="_blank"><i class="icon icon-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github</a>
+      <a href="http://github.com/kkortes/leaf" class="button waves-effect" target="_blank"><i class="icon icon-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github</a>
       </p>
       <p>If you want to try out Leaf without setting up a whole new project you can simply download <a href="http://github.com/kkortes/leaf-showcase" target="_blank">this web</a> and play around with it (including php-files and project specific css).
       </p>

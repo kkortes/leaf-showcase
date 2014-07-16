@@ -41,7 +41,7 @@ include "base.php";
               Hey guys. Long time no see.<br />
               <span class="small">to Hero 1, Hero 2</span>
             </div>
-            <div class="drop up right small">
+            <div class="drop down right small">
               <span class="text-grey">Just now</span>
             </div>
           </div>
@@ -59,7 +59,7 @@ include "base.php";
               I'm fine, thanks! And you?<br />
               <span class="small">to Hero 2 <span class="text-grey">- RE: Hello! How are you?</span></span>
             </div>
-            <div class="drop up right small">
+            <div class="drop down right small">
               <span class="text-grey">5m</span>
             </div>
           </div>
@@ -77,7 +77,7 @@ include "base.php";
               Hello! How are you?<br />
               <span class="small">to Hero 1 <span class="text-grey">- Conversation started</span></span>
             </div>
-            <div class="drop up right small">
+            <div class="drop down right small">
               <span class="text-grey">10m</span>
             </div>
           </div>

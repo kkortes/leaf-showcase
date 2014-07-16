@@ -1,17 +1,10 @@
-<div class="container">
+<div class="container" id="back-here">
 
-  <div class="spacer"></div>
+ <div class="spacer"></div>
 
   <div class="crow">
     <div>
-      <a href="#" class="circle button fill-cyan text-white">
-        <span>
-          <i class="icon icon-flag"></i>
-        </span>
-      </a>
-    </div>
-    <div>
-      <a href="#" class="circle button fill-cyan disabled">
+      <a href="#back-here" class="waves-effect circle button fill-cyan text-white">
         <span>
           <i class="icon icon-flag"></i>
         </span>
@@ -23,12 +16,51 @@
 
   <div class="crow">
     <div>
-      <a href="#" class="button fill-cyan text-white">
+      <a href="#back-here" class="waves-effect button fill-cyan text-white">
+        Regular button with waves
+      </a>
+    </div>
+  </div>
+
+  <div class="spacer half"></div>
+
+  <div class="crow">
+    <div>
+      <a href="#back-here" class="waves-effect button flat text-cyan ">
+        Flat button with waves
+      </a>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="crow">
+    <div>
+      <a href="#back-here" class="circle button fill-cyan text-white">
+        <span>
+          <i class="icon icon-flag"></i>
+        </span>
+      </a>
+    </div>
+    <div>
+      <a href="#back-here" class="circle button fill-cyan disabled">
+        <span>
+          <i class="icon icon-flag"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <div class="spacer half"></div>
+
+  <div class="crow">
+    <div>
+      <a href="#back-here" class="button fill-cyan text-white">
         Regular button
       </a>
     </div>
     <div>
-      <a href="#" class="button fill-cyan disabled">
+      <a href="#back-here" class="button fill-cyan disabled">
         Regular button (disabled)
       </a>
     </div>
@@ -38,12 +70,12 @@
 
   <div class="crow">
     <div>
-      <a href="#" class="button flat text-cyan">
+      <a href="#back-here" class="button flat text-cyan ">
         Flat button
       </a>
     </div>
     <div>
-      <a href="#" class="button flat text-cyan disabled">
+      <a href="#back-here" class="button flat text-cyan disabled">
         Flat button (disabled)
       </a>
     </div>
@@ -53,12 +85,12 @@
 
   <div class="crow">
     <div>
-      <a href="#" class="button text text-cyan">
+      <a href="#back-here" class="button text text-cyan">
         Text button
       </a>
     </div>
     <div>
-      <a href="#" class="button text text-cyan disabled">
+      <a href="#back-here" class="button text text-cyan disabled">
         Text button (disabled)
       </a>
     </div>

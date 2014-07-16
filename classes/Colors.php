@@ -2,7 +2,7 @@
 	class Colors {
 		static function writeToFile() {
 			global $app;
-			$file = $app->root.'/sweep/styl/colors/';
+			$file = $app->root.'/leaf/styl/colors/';
 			$colors = self::getAll();
 			$steps = self::getSteps();
 			$functions = array(
@@ -51,6 +51,10 @@
 				}else{
 					$do = "{$action}:get-{$key}(s)";
 					$html .= "  $do\n";
+					if($function == 'text-') {
+						$html .= "  &:hover\n";
+						$html .= "    $do\n";
+					}
 				}
 			}
 

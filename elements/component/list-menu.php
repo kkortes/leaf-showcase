@@ -22,11 +22,23 @@ include "base.php";
       <h2>Consider using</h2>
       .base-padding<br />
       .icon.icon-{icon}
+      &.waves-effect (on the a-tags, see example)
 
       <h2><i class="icon icon-warning"></i> Side note(s)</h2>
       Make sure to run activateLists() function in <i>scripts.js</i> for expand functionality<br />
       The javascript checks if href is set to # and expands if so, elsewise it triggers a normal click<br />
-      For the expands to work, make sure the nested UL's are inside the LI's and not the a-tags
+      For the expands to work, make sure the nested UL's are inside the LI's and not the a-tags<br /><br />
+
+      &.waves-effect only works if function initWaves() was called, see <i>scripts.js</i>
+      <br /><br />
+      <strong>Notice!</strong> Waves is still under development. I won't do a fully functional implementation before the final release.
+      <br /><br />
+      Limitations right now:<br />
+      .circle buttons loses their shadow if .waves-effect is used<br />
+      submit buttons can't run the animation<br />
+      the effect doesn't trigger on mobiles and tablets
+      <br /><br />
+      Credits to <a href="http://publicis-indonesia.github.io/Waves/" target="_blank">fians@github</a> for Waves.
     </div>
     <div class="ws-4">
       <div class="spacer half"></div>
@@ -36,7 +48,7 @@ include "base.php";
       <ul class="unstyled minimized">
         <? foreach(array(1,2,3) as $i) { ?>
         <li>
-          <a href="#" class="list-item base-padding">
+          <a href="#" class="waves-effect list-item base-padding">
             <div class="pull-left">
               <i class="icon icon-flag"></i> Top menu
             </div>
@@ -47,7 +59,7 @@ include "base.php";
           <ul>
             <? foreach(array(1,2,3) as $g) { ?>
               <li>
-                <a href="#" class="list-item base-padding">
+                <a href="#" class="waves-effect list-item base-padding">
                   <div class="pull-left">
                     <i class="icon icon-flag"></i> Sub menu
                   </div>
@@ -58,7 +70,7 @@ include "base.php";
                 <ul>
                   <? foreach(array(1,2,3) as $f) { ?>
                     <li>
-                      <a href="#" class="list-item base-padding">
+                      <a href="#" class="waves-effect list-item base-padding">
                         <div class="pull-left">
                           <i class="icon icon-flag"></i> Second sub menu
                         </div>
@@ -69,7 +81,7 @@ include "base.php";
                       <ul>
                         <? foreach(array(1,2,3) as $f) { ?>
                           <li>
-                            <a href="http://google.se" class="list-item">
+                            <a href="http://google.se" class="waves-effect list-item">
                               <i class="icon icon-googleplus"></i> Google.com
                             </a>
                           </li>
