@@ -38,10 +38,6 @@
       <br />
       ~ I'm running <a href="https://incident57.com/codekit/" target="_blank">Codekit</a> to compile all of the .styl's and .coffee's, but you can set up a grunt if you feel like.
       <br />
-      ~ <i>This web</i> is based on <a href="http://gettopbot.eu" target="_blank">Topbot</a> which is really easy to understand and use.
-      <br />
-      ~ In /leaf (from project root) you'll find everything that will be in the final release, here's were you want to put your code.
-      <br />
       ~ For retina ready icons I've chosen to go with <a href="http://icomoon.io" target="_blank">Icomoon</a>. Icomoon is free and awesome and if you don't know it yet, get to know it! No regrets.
       </p>
       <h2>Most importantly</h2>
