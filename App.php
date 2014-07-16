@@ -75,19 +75,19 @@ class App {
     if(!strpos($path, '.php'))
       $path = $path.'.php';
     
-    if(file_exists($path)) {
-      ob_start();
-        extract($variablesx);
-        $app = $this;
-
-        include $path;
-
-      $output = ob_get_clean();
-      return $output;
-    }else{
-      echo '<script>location.href="/404"</script>';
-      throw new Exception('Element does not exists');
+    if(!file_exists($path)) {
+      $path = $this->pointer.'../404.php';
     }
+
+    ob_start();
+    extract($variablesx);
+    $app = $this;
+
+    include $path;
+
+    $output = ob_get_clean();
+    
+    return $output;
   }
 
   public function includer($includes = array(), $directory = false) {
