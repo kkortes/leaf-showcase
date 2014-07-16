@@ -1,9 +1,27 @@
-Leaf CSS theme
+LEAF SHOWCASE WEB
 
 ======
 
-A CSS framework based on Google's material design.
+This repository represents the showcase web for Leaf CSS Framework (http://leaf.kortes.se)
 
-Read more about the project here > http://leaf.kortes.se/getting-started
+It does NOT include Leaf itself by default, you must add it after downloading this repository.
 
-Feel free to contribute!
+
+
+HOW TO ADD LEAF
+
+======
+
+Download or clone this repository:
+* cd ~/pathtowww/www
+* git clone https://github.com/kkortes/leaf-showcase.git
+
+Go to your leaf-showcase directory:
+* cd leaf-showcase
+
+Checkout Leaf CSS Framework in it:
+* git clone https://github.com/kkortes/leaf.git
+
+Leaf should now be in your www/leaf-showcase/leaf.
+
+You are ready to go!
