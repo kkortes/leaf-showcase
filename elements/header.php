@@ -40,6 +40,3 @@
     echo $app->get('parts/social-share');
   }
 ?>
-<?
-  //Colors::writeToFile(); 
-?>

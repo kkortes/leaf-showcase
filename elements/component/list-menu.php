@@ -34,8 +34,6 @@ include "base.php";
       <strong>Notice!</strong> Waves is still under development. I won't do a fully functional implementation before the final release.
       <br /><br />
       Limitations right now:<br />
-      .circle buttons loses their shadow if .waves-effect is used<br />
-      submit buttons can't run the animation<br />
       the effect doesn't trigger on mobiles and tablets
       <br /><br />
       Credits to <a href="http://publicis-indonesia.github.io/Waves/" target="_blank">fians@github</a> for Waves.
