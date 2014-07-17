@@ -1,18 +1,10 @@
 <div class="container">
 	<div class="spacer half"></div>
-	<div class="crow">
-		<div class="ws-8">
-			<h2>News</h2>
-			<hr />
-		</div>
-		<div class="ws-4">
-			<h2>Latest additions</h2>
-			<hr />
-		</div>
-	</div>
 
 	<div class="crow">
 		<div class="ws-8 up">
+			<h2>News</h2>
+			<hr />
 
 			<h3>Leaf CSS Framework has now entered beta! <br /> <span class="small text-grey">17 July 2014</span></h3>
 			<p>
@@ -41,7 +33,9 @@
 			
 		</div>
 		<div class="ws-4">
-			
+			<h2>Latest additions</h2>
+			<hr />
+
 			<strong class="label">17 July</strong>
 			<ul class="unstyled">
 				<li>

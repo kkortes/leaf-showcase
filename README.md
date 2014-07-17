@@ -2,7 +2,7 @@ LEAF SHOWCASE WEB
 
 ======
 
-This repository represents the showcase web for Leaf CSS Framework (http://leaf.kortes.se)
+This repository represents the showcase web for Leaf CSS Framework (http://getleaf.com)
 
 It does NOT include Leaf itself by default, you must add it after downloading this repository.
 
