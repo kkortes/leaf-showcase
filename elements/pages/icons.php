@@ -53,7 +53,7 @@
       ?>
       <div class="w-5">
         <div class="tile center fill-<?=$color?> fill-minus-2 base-padding" style="width:100%;">
-          <i>
+          <i style="word-break:break-word;">
             <i class="icon icon-<?=$icon->properties->name?>"></i> <?=$icon->properties->name?>
           </i>
         </div>
