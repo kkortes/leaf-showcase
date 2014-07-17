@@ -13,7 +13,7 @@
         <iframe src="http://ghbtns.com/github-btn.html?user=kkortes&repo=leaf&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
 
         <div class="drop down-left base-padding" style="padding-bottom:5px;">
-          <strong>Support project</strong>
+          <strong class="text-white">Support project</strong>
           <div class="spacer quarter"></div>
           <div class="image card">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="line-height:0;">
