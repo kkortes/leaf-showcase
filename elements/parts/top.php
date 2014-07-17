@@ -25,6 +25,11 @@
                   'link' => true,
                   'active' => (isset($_GET['page']) && $_GET['page'] == 'getting-started') ? true : false
                 ),
+                $app->url.'news' => array(
+                  'text' => 'News',
+                  'link' => true,
+                  'active' => (isset($_GET['page']) && $_GET['page'] == 'news') ? true : false
+                ),
                 $app->url.'colors' => array(
                   'text' => 'Colors',
                   'link' => true,

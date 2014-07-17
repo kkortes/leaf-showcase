@@ -2,11 +2,11 @@
   <div class="crow">
     <div class="ws-12">
       <h1>Getting started</h1>
-      <p><i>Current version: Alpha 0.1</i>
+      <p><i>Current version: Beta 1.0</i>
       </p>
-      <p>~ Under construction <span class="small">(as of 9th of July 2014)</span> ~
+      <p>~ Under construction <span class="small">(as of 17th of July 2014)</span> ~
       </p>
-      <p>Download here (CSS/JS)
+      <p>Download (CSS/JS)
       </p>
       <p>
       <a href="http://github.com/kkortes/leaf" class="button waves-effect" target="_blank"><i class="icon icon-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github</a>
@@ -27,7 +27,7 @@
       <p>
       First of, my intention wasn't to get the attraction that Leaf got (over one day). I just posted a link to get some feedback and BANG, all over the internet.
       <br />
-      Secondly, people already blaming Leaf for being a "poor implementation". It's in its alpha and if you got good ideas and inputs, why not contribute? A project gotta start somewhere. Also, I think it's appropriate to share Leaf this early in the progression. I'm no designer, though I love beautiful designs and interfaces, and therefore I find it important to get others inputs before setting standards.
+      Secondly, people already blaming Leaf for being a "poor implementation". It's in its beta and if you got good ideas and inputs, why not contribute? A project gotta start somewhere. Also, I think it's appropriate to share Leaf this early in the progression. I'm no designer, though I love beautiful designs and interfaces, and therefore I find it important to get others inputs before setting standards.
       </p>
 
       <h2>Read this if you are thinking about contributing</h2>

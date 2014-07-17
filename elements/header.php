@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Leaf 0.1 ALPHA - CSS Framework</title>
+  <title>Leaf BETA 1.0 - CSS Framework</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +36,7 @@
 <?=$app->get('parts/top')?>
 <div id="wrapper">
 <?
-  if($app->env == 'live') {
+  if($app->env != 'live') {
     echo $app->get('parts/social-share');
   }
 ?>
