@@ -8,7 +8,8 @@
 
 			<h3>Bower power! <br /> <span class="small text-grey">17 July 2014</span></h3>
 			<p>
-			Leaf is now added to <a href="http://bower.io/" target="_blank">Bower</a>'s package list, for those who want to download it at instant speed.
+			Leaf is now added to <a href="http://bower.io/" target="_blank">Bower</a>'s package list, for those who want to download it at instant speed.<br />
+			You can find it by searching for <i>leaf-css-framework</i>.
 			</p>
 
 			<hr />
