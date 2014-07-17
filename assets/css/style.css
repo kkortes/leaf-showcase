@@ -8,3 +8,45 @@ body.page-index .icon-leaf {
   font-size: 100px;
   line-height: 100px;
 }
+body.page-examples .image.platform {
+  background-image: url("../image/imac.png");
+  background-size: cover;
+}
+body.page-examples .inside {
+  line-height: 22px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 5%;
+  right: 4%;
+  bottom: 32.5%;
+  left: 4%;
+}
+body.page-examples .inside .tile img {
+  max-width: 200px;
+}
+@media (max-width: 767px) {
+  body.page-examples .image.platform {
+    background-image: url("../image/iphone.png");
+  }
+  body.page-examples .inside {
+    top: 16.5%;
+    right: 6.5%;
+    bottom: 16%;
+    left: 6.5%;
+  }
+  body.page-examples .inside .tile img {
+    width: 100%;
+    max-width: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body.page-examples .image.platform {
+    background-image: url("../image/ipad.png");
+  }
+  body.page-examples .inside {
+    top: 10%;
+    right: 12%;
+    bottom: 9.8%;
+    left: 11.3%;
+  }
+}

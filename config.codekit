@@ -196,6 +196,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/image\/imac.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169270,
+		"inputAbbreviatedPath": "\/assets\/image\/imac.png",
+		"outputAbbreviatedPath": "\/assets\/image\/imac.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/image\/img1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -214,6 +225,28 @@
 		"initialSize": 445755,
 		"inputAbbreviatedPath": "\/assets\/image\/img2.jpg",
 		"outputAbbreviatedPath": "\/assets\/image\/img2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/ipad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 268820,
+		"inputAbbreviatedPath": "\/assets\/image\/ipad.png",
+		"outputAbbreviatedPath": "\/assets\/image\/ipad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69554,
+		"inputAbbreviatedPath": "\/assets\/image\/iphone.png",
+		"outputAbbreviatedPath": "\/assets\/image\/iphone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1456,6 +1489,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/elements\/pages\/examples.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/elements\/pages\/examples.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/elements\/pages\/form.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1533,6 +1575,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/elements\/parts\/bot.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/elements\/parts\/mini-web.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/elements\/parts\/mini-web.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
