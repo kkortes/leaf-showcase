@@ -36,7 +36,7 @@
 <?=$app->get('parts/top')?>
 <div id="wrapper">
 <?
-  if($app->env != 'live') {
+  if($app->env == 'live') {
     echo $app->get('parts/social-share');
   }
 ?>
