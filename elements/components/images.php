@@ -1,8 +1,3 @@
-<div>
-  <div class="image">
-    <img />
-    <div class="overlay">
-      <p>Overlay like this</p>
-    </div>
-  </div>
+<div class="image">
+  <img src="<?=$app->url?>assets/image/cows.jpg" width="100%" />
 </div>

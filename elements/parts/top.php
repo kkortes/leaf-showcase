@@ -35,6 +35,11 @@
                   'link' => true,
                   'active' => (isset($_GET['page']) && $_GET['page'] == 'grid') ? true : false
                 ),
+                $app->url.'icons' => array(
+                  'text' => 'Icons',
+                  'link' => true,
+                  'active' => (isset($_GET['page']) && $_GET['page'] == 'icons') ? true : false
+                ),
                 $app->url.'components' => array(
                   'text' => $app->get('parts/nav'),
                   'link' => false,
