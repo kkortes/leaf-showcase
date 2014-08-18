@@ -13,7 +13,7 @@
     <script>window.app_url = '<?=$app->url?>'</script>
     <script>window.app_server_url = '<?=$app->server_url?>'</script>
     <script src="<?=$app->url?>leaf/js/libs/hammer.js"></script>
-    <script src="<?=$app->url?>leaf/js/libs/waves/waves.js"></script>
+    <script src="<?=$app->url?>leaf/js/libs/Waves-master/dist/waves.min.js"></script>
     <script src="<?=$app->url?>leaf/js/script.js"></script>
   </body>
 </html>

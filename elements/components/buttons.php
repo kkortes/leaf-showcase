@@ -32,6 +32,16 @@
     </div>
   </div>
 
+  <div class="spacer half"></div>
+
+   <div class="crow">
+    <div>
+      <i class="waves-effect waves-button">
+        <input type="submit" value="Flat input with waves" />
+      </i>
+    </div>
+  </div>
+
   <div class="spacer"></div>
 
   <div class="crow">
