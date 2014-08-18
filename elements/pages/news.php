@@ -4,6 +4,13 @@
 	<div class="crow">
 		<div class="ws-8 up">
 			<h2>News</h2>
+
+			<hr />
+
+			<h3>New version of waves.<br /> <span class="small text-grey">18 August 2014</span></h3>
+			<p>
+			A new, better, version of waves is now added. Enjoy.
+			</p>
 			<hr />
 
 			<h3>Bower power! <br /> <span class="small text-grey">17 July 2014</span></h3>
