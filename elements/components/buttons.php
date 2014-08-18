@@ -37,7 +37,7 @@
    <div class="crow">
     <div>
       <i class="waves-effect waves-button">
-        <input type="submit" value="Flat input with waves" />
+        <input type="submit" class="text-cyan flat" value="Flat input with waves" />
       </i>
     </div>
   </div>
