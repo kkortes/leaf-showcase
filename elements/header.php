@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" type="image/png" href="<?=$app->url?>favicon.ico?v=4" />
 
-  <link rel="stylesheet" type="text/css" href="<?=$app->url?>leaf/css/base.css" />
-  <link rel="stylesheet" type="text/css" href="<?=$app->url?>assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="<?=$app->url?>leaf/css/base.css?v=<?=date('hm')?>" />
+  <link rel="stylesheet" type="text/css" href="<?=$app->url?>assets/css/style.css?v=<?=date('hm')?>" />
 
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500,500italic,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css' />
 </head>
