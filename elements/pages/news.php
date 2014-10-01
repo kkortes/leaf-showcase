@@ -6,6 +6,13 @@
 			<h2>News</h2>
 
 			<hr />
+			<h3>Important notification! Read me.</h3>
+			<p>
+			A suggestion sent to me was changing the standard ".fill-{color}" for background colors to ".bg-{color}" which makes sense since the word fill is used for .svg's and bg for html elements. So I swapped it out.<br />
+			<i>From now on use .bg-{color} instead</i> (<a href="<?=$app->url?>colors">documentation</a> updated aswell).
+			</p>
+
+			<hr />
 
 			<h3>New version of waves.<br /> <span class="small text-grey">18 August 2014</span></h3>
 			<p>
