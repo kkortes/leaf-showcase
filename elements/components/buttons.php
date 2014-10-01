@@ -4,7 +4,7 @@
 
   <div class="crow">
     <div>
-      <a href="#back-here" class="waves-effect circle button fill-cyan text-white">
+      <a href="#back-here" class="waves-effect circle button bg-cyan text-white">
         <span>
           <i class="icon icon-flag"></i>
         </span>
@@ -16,7 +16,7 @@
 
   <div class="crow">
     <div>
-      <a href="#back-here" class="waves-effect button fill-cyan text-white">
+      <a href="#back-here" class="waves-effect button bg-cyan text-white">
         Regular button with waves
       </a>
     </div>
@@ -46,14 +46,14 @@
 
   <div class="crow">
     <div>
-      <a href="#back-here" class="circle button fill-cyan text-white">
+      <a href="#back-here" class="circle button bg-cyan text-white">
         <span>
           <i class="icon icon-flag"></i>
         </span>
       </a>
     </div>
     <div>
-      <a href="#back-here" class="circle button fill-cyan disabled">
+      <a href="#back-here" class="circle button bg-cyan disabled">
         <span>
           <i class="icon icon-flag"></i>
         </span>
@@ -65,12 +65,12 @@
 
   <div class="crow">
     <div>
-      <a href="#back-here" class="button fill-cyan text-white">
+      <a href="#back-here" class="button bg-cyan text-white">
         Regular button
       </a>
     </div>
     <div>
-      <a href="#back-here" class="button fill-cyan disabled">
+      <a href="#back-here" class="button bg-cyan disabled">
         Regular button (disabled)
       </a>
     </div>
@@ -110,10 +110,10 @@
 
   <div class="crow">
     <div>
-      <input type="submit" class="button fill-cyan text-white" value="Submit button" />
+      <input type="submit" class="button bg-cyan text-white" value="Submit button" />
     </div>
     <div>
-      <input type="submit" disabled class="button fill-cyan text-white" value="Submit button (disabled)" />
+      <input type="submit" disabled class="button bg-cyan text-white" value="Submit button (disabled)" />
     </div>
   </div>
 

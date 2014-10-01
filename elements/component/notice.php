@@ -9,7 +9,7 @@ $component = $app->get('pages/notice');
         <div class="inline-block relative">
           <i class="icon icon-link"></i>
           <div class="drop down-left" style="width:500px;">
-            <div class="tile base-padding fill-blue-grey text-white">
+            <div class="tile base-padding bg-blue-grey text-white">
               <a href="http://www.google.com/design/spec/components/snackbars-and-toasts.html" target="_blank" class="text-white">http://www.google.com/design/spec/components/snackbars-and-toasts.html</a>
             </div>
           </div>
@@ -22,7 +22,7 @@ $component = $app->get('pages/notice');
       <h2>Consider using</h2>
       &.down<br />
       &.up<br />
-      .fill-{color}<br />
+      .bg-{color}<br />
       .text-{color}
 
       <h2><i class="icon icon-warning"></i> Side note(s)</h2>

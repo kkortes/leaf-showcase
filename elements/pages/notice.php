@@ -1,5 +1,5 @@
 <div class="container" style="height:400px;">
-	<div class="relative fill-grey fill-minus-3" style="height:100%;">
+	<div class="relative bg-grey bg-minus-3" style="height:100%;">
 		<div class="drop up max notice">
 			<div class="message">
 				<span>This message has successfully been loaded.</span>

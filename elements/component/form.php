@@ -9,7 +9,7 @@ $component = $app->get('pages/form');
         <div class="inline-block relative">
           <i class="icon icon-link"></i>
           <div class="drop down-left" style="width:500px;">
-            <div class="tile base-padding fill-blue-grey text-white">
+            <div class="tile base-padding bg-blue-grey text-white">
               <a href="http://www.google.com/design/spec/components/text-fields.html" target="_blank" class="text-white">http://www.google.com/design/spec/components/text-fields.html</a>
             </div>
           </div>
@@ -86,7 +86,7 @@ $component = $app->get('pages/form');
         </div>
         <div class="ws-6">
           <div class="input">
-            <input type="submit" class="button fill-cyan text-white" value="Submit" />
+            <input type="submit" class="button bg-cyan text-white" value="Submit" />
           </div>
         </div>
       </div>

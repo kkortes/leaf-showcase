@@ -1,6 +1,6 @@
-<div class="top fill-blue-grey text-white">
+<div class="top bg-blue-grey text-white">
   <div class="fullwidth">
-    <div class="fill-plus-2" style="padding:6px 0;">
+    <div class="bg-plus-2" style="padding:6px 0;">
     </div>
 
     <div class="container">
@@ -11,7 +11,7 @@
               <a href="#" class="icon icon-list2 text-white" style="font-size:26px;"></a>
             </div>
           </div>
-          <div class="tabs fill-blue-grey">
+          <div class="tabs bg-blue-grey">
             <ul class="inline">
               <?
               $pages = array(

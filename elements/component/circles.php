@@ -12,7 +12,7 @@ include "base.php";
 			.circle
 
 			<h2>Consider using</h2>
-			.fill-{color}<br />
+			.bg-{color}<br />
 			.icon.icon-{icon} inside a .circle<br />
 			<?=htmlspecialchars('<img />')?>-tag inside a .circle<br />
 			A set width value (and height value if makeResize() isn't running)
@@ -26,7 +26,7 @@ include "base.php";
 			<div class="label">Example (inspect me):</div>
 			<div class="spacer quarter"></div>
 
-			<div class="circle fill-red" style="width:60px;">
+			<div class="circle bg-red" style="width:60px;">
 				<i class="icon icon-googleplus text-white"></i>
 			</div>
 

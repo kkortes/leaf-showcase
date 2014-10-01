@@ -20,7 +20,7 @@ $component = $app->get('pages/dropdowns');
       &.right-up or &.right-down (outset)<br />
       &.left-up or &.left-down (outset)<br />
       &.max<br /><br />
-      .fill-{color}<br />
+      .bg-{color}<br />
       .text-{color}<br />
       .base-padding
 
@@ -32,7 +32,7 @@ $component = $app->get('pages/dropdowns');
       <div class="spacer half"></div>
       <div class="label">Example (inspect me):</div>
       <div class="spacer quarter"></div>
-      <div class="tile fill-cyan">
+      <div class="tile bg-cyan">
         <?=$app->get('parts/nav')?>
       </div>
     </div>

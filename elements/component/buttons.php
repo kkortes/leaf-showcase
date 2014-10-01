@@ -9,7 +9,7 @@ $component = $app->get('components/buttons');
         <div class="inline-block relative">
           <i class="icon icon-link"></i>
           <div class="drop down-left" style="width:500px;">
-            <div class="tile base-padding fill-blue-grey text-white">
+            <div class="tile base-padding bg-blue-grey text-white">
               <a href="http://www.google.com/design/spec/components/buttons.html" target="_blank" class="text-white">http://www.google.com/design/spec/components/buttons.html</a>
             </div>
           </div>
@@ -25,9 +25,11 @@ $component = $app->get('components/buttons');
       
 
       <h2>Consider using</h2>
-      .fill-{color}<br />
+      .bg-{color}<br />
       .text-{color}<br />
-      &.waves-effect
+      &.waves-effect<br />
+      <strong>Notice!</strong>
+      For waves effect to work properly on submit buttons, wrap the submit button in a i-tag with the classes .waves-effect and .waves-button AND remove the .button class from the input itself.
 
       <h2><i class="icon icon-warning"></i> Side note(s)</h2>
       &.waves-effect only works if function initWaves() was called, see <i>scripts.js</i>
@@ -45,10 +47,10 @@ $component = $app->get('components/buttons');
       <div class="spacer half"></div>
       <div class="label">Example (inspect me):</div>
       <div class="spacer quarter"></div>
-      <a href="#" class="button circle fill-cyan">
+      <a href="#" class="button circle bg-cyan">
         <i class="icon icon-plus3 text-white"></i>
       </a>
-      <a href="#" class="button waves-button circle fill-cyan waves-effect">
+      <a href="#" class="button waves-button circle bg-cyan waves-effect">
         <i class="icon icon-plus3 text-white"></i>
       </a>
     </div>

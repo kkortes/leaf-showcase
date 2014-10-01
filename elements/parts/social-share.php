@@ -30,10 +30,10 @@
 
             <div class="drop down-left" style="padding-left:10px;padding-top:5px;">
               <div class="relative">
-                <div class="image card fill-white" style="padding:3px;">
+                <div class="image card bg-white" style="padding:3px;">
                   <img src="http://s11.postimg.org/8yxr24w0v/bitcoin.png" />
                 </div>
-                <div class="drop bottom-left fill-white card" style="width:310px;padding:5px;">
+                <div class="drop bottom-left bg-white card" style="width:310px;padding:5px;">
                   1PiRdutMwncxkjp8quxQiF1qFUBGBjwhfg
                 </div>
               </div>

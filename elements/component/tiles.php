@@ -12,7 +12,7 @@ include "base.php";
       .tile
 
       <h2>Consider using</h2>
-      .fill-{color}<br />
+      .bg-{color}<br />
       .base-padding & .strong-padding<br />
       <a href="/grid">.crow</a> inside a .tile
     </div>
@@ -20,7 +20,7 @@ include "base.php";
       <div class="spacer half"></div>
       <div class="label">Example (inspect me):</div>
       <div class="spacer quarter"></div>
-      <div class="tile fill-white">
+      <div class="tile bg-white">
         <div class="image">
           <img src="<?=$app->url?>assets/image/cows.jpg" style="width:100%;" />
         </div>

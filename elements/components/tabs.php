@@ -1,4 +1,4 @@
-<div class="tabs fill-white">
+<div class="tabs bg-white">
 	<div class="crow fly no-gutter">
 		<?
 		foreach(array('moon', 'leaf', 'music') as $icon) {

@@ -9,7 +9,7 @@ include "base.php";
         <div class="inline-block relative">
           <i class="icon icon-link"></i>
           <div class="drop down-left" style="width:500px;">
-            <div class="tile base-padding fill-blue-grey text-white">
+            <div class="tile base-padding bg-blue-grey text-white">
               <a href="http://www.google.com/design/spec/components/lists.html" target="_blank" class="text-white">http://www.google.com/design/spec/components/lists.html</a>
             </div>
           </div>

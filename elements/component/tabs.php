@@ -14,7 +14,7 @@ include "base.php";
       <h2>Consider using</h2>
       .active (for active state)<br />
       .text-{color}<br />
-      .fill-{color}
+      .bg-{color}
       
     </div>
     <div class="ws-4">
@@ -22,7 +22,7 @@ include "base.php";
       <div class="label">Example (inspect me):</div>
       <div class="spacer quarter"></div>
      
-      <div class="tabs fill-grey fill-minus-3">
+      <div class="tabs bg-grey bg-minus-3">
 				<div class="crow fly no-gutter down">
 					<?
 					foreach(array('Home', 'Page', '<i class="icon icon-leaf"></i>') as $text) {

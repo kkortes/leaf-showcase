@@ -6,7 +6,7 @@
         <div class="inline-block relative">
           <i class="icon icon-link"></i>
           <div class="drop down-left" style="width:500px;">
-            <div class="tile base-padding fill-blue-grey text-white">
+            <div class="tile base-padding bg-blue-grey text-white">
               <a href="http://getcrow.eu" target="_blank" class="text-white">http://getcrow.eu</a>
             </div>
           </div>

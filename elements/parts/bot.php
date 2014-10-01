@@ -1,4 +1,4 @@
-<div class="bot fill-blue-grey fill-plus-2 text-white">
+<div class="bot bg-blue-grey bg-plus-2 text-white">
   <div class="fullwidth">
     <div class="container">
       <div class="crow">

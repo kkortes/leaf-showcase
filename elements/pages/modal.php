@@ -1,9 +1,9 @@
 <div class="modal">
 	<div class="modal-inner crow no-gutter">
 		<div class="container">
-			<div class="crow fill-white card no-gutter">
+			<div class="crow bg-white card no-gutter">
 				<div class="ws-12">
-					<div class="fill-teal tile" style="padding:10px 35px;">
+					<div class="bg-teal tile" style="padding:10px 35px;">
 						<?=$app->get('parts/nav')?>
 					</div>
 					<div class="spacer quarter"></div>

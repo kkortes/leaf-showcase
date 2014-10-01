@@ -159,7 +159,7 @@
 
     <div class="ws-12">
       <div class="input">
-        <input type="submit" class="button fill-cyan text-white" value="Submit" />
+        <input type="submit" class="button bg-cyan text-white" value="Submit" />
       </div>
     </div>
 
