@@ -6,6 +6,12 @@
 			<h2>News</h2>
 
 			<hr />
+			<h3>Great feedback.<br /> <span class="small text-grey">23 December 2014</span></h3>
+			<p>
+			Email and password input fields are now added to the styled input fields. Keep the feedback coming, I'm not updating Leaf every day, but I do check all the feedback I get.
+			</p>
+
+			<hr />
 			<h3>Background color usage change. Read me.<br /> <span class="small text-grey">01 October 2014</span></h3>
 			<p>
 			A suggestion sent to me was changing the standard ".fill-{color}" for background colors to ".bg-{color}" which makes sense since the word fill is used for .svg's and bg for html elements. So I swapped it out.<br />
@@ -57,6 +63,18 @@
 		<div class="ws-4">
 			<h2>Latest additions</h2>
 			<hr />
+
+			<strong class="label">23 December</strong>
+			<ul class="unstyled">
+				<li>
+					<a href="<?=$app->url?>component/type/flipcard" class="list-item">
+						<div class="text">
+							<i class="icon icon-forward"></i> Flipcards added.<br />
+							<span class="text-grey small">Flip-effects feels material, so I decided to add them to Leaf.</span>
+						</div>
+					</a>
+				</li>
+			</ul>
 
 			<strong class="label">17 July</strong>
 			<ul class="unstyled">

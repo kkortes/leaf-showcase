@@ -51,11 +51,20 @@
     foreach($icons->icons as $icon) {
       $color = $colors[rand(0, count($colors)-1)];
       ?>
-      <div class="w-5">
-        <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
-          <i style="word-break:break-word;">
-            <i class="icon icon-<?=$icon->properties->name?>"></i> <?=$icon->properties->name?>
-          </i>
+      <div class="w-5 flip">
+        <div class="front">
+          <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
+            <i style="word-break:break-word;">
+              <i class="icon icon-<?=$icon->properties->name?>"></i>
+            </i>
+          </div>
+        </div>
+        <div class="back">
+          <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
+            <i style="word-break:break-word;">
+              <?=$icon->properties->name?>
+            </i>
+          </div>
         </div>
       </div>
       <?
