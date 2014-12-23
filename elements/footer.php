@@ -12,8 +12,8 @@
     <script src="<?=$app->url?>bower_components/jquery/dist/jquery.min.js?v=<?=date('ms')?>"></script>
     <script>window.app_url = '<?=$app->url?>'</script>
     <script>window.app_server_url = '<?=$app->server_url?>'</script>
-    <script src="<?=$app->url?>leaf/js/libs/hammer.js?v=<?=date('ms')?>"></script>
-    <script src="<?=$app->url?>leaf/js/libs/Waves-master/dist/waves.js?v=<?=date('ms')?>"></script>
-    <script src="<?=$app->url?>leaf/js/script.js?v=<?=date('ms')?>"></script>
+    <script src="<?=$app->url?>bower_components/leaf-css-framework/js/libs/hammer.js?v=<?=date('ms')?>"></script>
+    <script src="<?=$app->url?>bower_components/leaf-css-framework/js/libs/Waves-master/dist/waves.js?v=<?=date('ms')?>"></script>
+    <script src="<?=$app->url?>bower_components/leaf-css-framework/js/script.js?v=<?=date('ms')?>"></script>
   </body>
 </html>
