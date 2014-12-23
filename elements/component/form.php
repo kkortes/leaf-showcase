@@ -49,17 +49,25 @@ $component = $app->get('pages/form');
           </div>
         </div>
         <div class="ws-6">
-          <div class="input error">
+          <div class="input">
             <label for="name2">
-              Last name
+              Email
             </label>
-            <input type="text" name="lastname" id="name2" placeholder="Enter last name" value="13@37" />
+            <input type="email" name="lastname" id="name2" placeholder="Enter email" value="" />
             <div class="drop down-left max error-message">
               <span>Incorrect input</span>
               <div class="pull-right">
                 <i class="icon icon-warning"></i>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="ws-12">
+          <div class="input">
+            <label for="name3">
+              Password
+            </label>
+            <input type="password" name="lastname" id="name3" placeholder="Password" value="" />
           </div>
         </div>
         <div class="ws-6">

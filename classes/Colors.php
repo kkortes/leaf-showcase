@@ -2,7 +2,7 @@
 	class Colors {
 		static function writeToFile() {
 			global $app;
-			$file = $app->root.'/leaf/styl/colors/';
+			$file = $app->root.'/bower_components/leaf-css-framework/styl/colors/';
 			$colors = self::getAll();
 			$steps = self::getSteps();
 			$functions = array(

@@ -57,7 +57,7 @@
         <label for="email">
           Email
         </label>
-        <input type="text" name="email" id="email" placeholder="Type here" value="invalidemail@mail" />
+        <input type="text" name="email" id="email" placeholder="Type here" value="invalid@email" />
         <div class="drop down-left max error-message">
           <span>Incorrect input</span>
           <div class="pull-right">

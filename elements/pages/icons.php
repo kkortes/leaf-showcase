@@ -33,7 +33,7 @@
 </div>
 <div>
   <?
-    $icons = @file_get_contents($app->root.'/leaf/fonts/icomoon/selection.json');
+    $icons = @file_get_contents($app->root.'/bower_components/leaf-css-framework/fonts/icomoon/selection.json');
     $icons = json_decode($icons);
     
     $wrappers = array(
