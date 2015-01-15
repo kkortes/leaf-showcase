@@ -24,7 +24,16 @@ body.page-examples .inside {
 body.page-examples .inside .tile img {
   max-width: 200px;
 }
+.strong-padding {
+  padding: 15px;
+}
+.base-padding {
+  padding: 10px;
+}
 @media (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
   body.page-examples .image.platform {
     background-image: url("../image/iphone.png");
   }
@@ -40,6 +49,9 @@ body.page-examples .inside .tile img {
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
+  body .desktop-nav {
+    display: none;
+  }
   body.page-examples .image.platform {
     background-image: url("../image/ipad.png");
   }

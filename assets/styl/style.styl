@@ -24,10 +24,16 @@ body
       .tile
         img
           max-width:200px
-
+.strong-padding
+  padding: 15px
+.base-padding
+  padding: 10px
 // Smartphone, both orientations
 @media (max-width: 767px)
   body
+    overflow:hidden
+    .show-on-mobile
+      inline()
     &.page-examples
       .image
         &.platform
@@ -45,6 +51,10 @@ body
 // Tablet, both orientations
 @media (min-width: 768px) and (max-width: 1199px) 
   body
+    .show-on-tablet
+      inline()
+    .desktop-nav
+      display:none
     &.page-examples
       .image
         &.platform
