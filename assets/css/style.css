@@ -1,3 +1,6 @@
+body .mod {
+  padding: 2.5px;
+}
 body .show-on-mobile,
 body .show-on-tablet {
   display: none;
