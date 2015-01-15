@@ -9,8 +9,8 @@
       .icon.icon-{icon}
 
       <h2>Consider using</h2>
-      .text-color<br />
-      .bg-color
+      .text-{color}<br />
+      .bg-{color}
 
       <h2><i class="icon icon-warning"></i> Side note(s)</h2>
       Icons by <a href="http://icomoon.io/" target="_blank">Icomoon</a>. Icomoon is easy to use and setup. In /leaf/assets/fonts you'll find a /icomoon directory. Visit <a href="http://icomoon.io/app/" target="_blank">http://icomoon.io/app/</a>, click "import icons" and choose <i>selection.json</i> from your icomoon directory and all icons will popup. You then can add/remove/edit icons and download a new package with your custom icons. Simply replace the /icomoon directory with your new one.
@@ -24,7 +24,7 @@
       <div class="label">Example (inspect me):</div>
       <div class="spacer quarter"></div>
 
-      <div class="waves-effect circle bg-white" style="width:45px;">
+      <div class="circle bg-white" style="width:45px;">
         <i class="icon icon-cog text-black"></i>
       </div>
     </div>

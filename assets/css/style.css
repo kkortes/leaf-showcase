@@ -33,6 +33,9 @@ body.page-examples .inside .tile img {
 #wrapper .fullwidth {
   height: 100%;
 }
+.bot .fullwidth {
+  padding: 10px 0;
+}
 @media (max-width: 767px) {
   body {
     overflow: hidden;
