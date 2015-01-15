@@ -1,4 +1,3 @@
-<?=$app->root.'elements/component/*'?>
 <div class="button flat text-white relative top-nav desktop-nav">
   <span>Components <i class="icon icon-arrow-down6"></i></span>
   <div class="drop down left card bg-white" style="width:200px; z-index:12;">
