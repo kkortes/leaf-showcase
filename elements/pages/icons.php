@@ -55,14 +55,15 @@
         <div class="front">
           <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
             <i style="word-break:break-word;">
-              <i class="icon icon-<?=$icon->properties->name?>"></i>
+              <i class="icon icon-<?=$icon->properties->name?>"></i><br />
+              <?=$icon->properties->name?>
             </i>
           </div>
         </div>
-        <div class="back">
-          <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
+        <div class="back text-center">
+          <div class="circle center bg-<?=$color?> bg-minus-2 base-padding" style="width:50%;">
             <i style="word-break:break-word;">
-              <?=$icon->properties->name?>
+              <i class="icon icon-<?=$icon->properties->name?>"></i>
             </i>
           </div>
         </div>
