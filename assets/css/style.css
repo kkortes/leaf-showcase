@@ -1,3 +1,7 @@
+body .show-on-mobile,
+body .show-on-tablet {
+  display: none;
+}
 body.page-index #wrapper {
   background-image: url("../image/img1.jpg");
   background-size: cover;
@@ -39,6 +43,9 @@ body.page-examples .inside .tile img {
 @media (max-width: 767px) {
   body {
     overflow: hidden;
+  }
+  body .show-on-mobile {
+    display: inline-block;
   }
   body.page-examples .image.platform {
     background-image: url("../image/iphone.png");

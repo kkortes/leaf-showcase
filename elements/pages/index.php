@@ -6,7 +6,7 @@
       <br />A CSS framework based on <a href="http://google.com/design/spec/" target="_blank">Google's material design</a>
       </h1>
       <h2 class="inline-block" style="width:60%;">
-      I appreciate feedback.<br />
+      I appreciate all the feedback that I get.<br />
       <a href="/getting-started" class="small">Read more</a>
       </h2>
     </div>

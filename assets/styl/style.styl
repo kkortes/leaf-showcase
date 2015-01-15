@@ -1,4 +1,7 @@
 body
+  .show-on-mobile,
+  .show-on-tablet
+    display: none
   &.page-index
     #wrapper
       background-image:url("../image/img1.jpg");
@@ -39,7 +42,7 @@ body
   body
     overflow:hidden
     .show-on-mobile
-      inline()
+      display: inline-block
     &.page-examples
       .image
         &.platform

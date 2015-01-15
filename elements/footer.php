@@ -15,5 +15,6 @@
     <script src="<?=$app->url?>bower_components/leaf-css-framework/js/libs/hammer.js?v=<?=date('ms')?>"></script>
     <script src="<?=$app->url?>bower_components/leaf-css-framework/js/libs/Waves-master/dist/waves.js?v=<?=date('ms')?>"></script>
     <script src="<?=$app->url?>bower_components/leaf-css-framework/js/script.js?v=<?=date('ms')?>"></script>
+    <script src="<?=$app->url?>assets/js/script.js?v=<?=date('ms')?>"></script>
   </body>
 </html>
