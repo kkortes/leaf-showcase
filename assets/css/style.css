@@ -30,6 +30,9 @@ body.page-examples .inside .tile img {
 .base-padding {
   padding: 10px;
 }
+#wrapper .fullwidth {
+  height: 100%;
+}
 @media (max-width: 767px) {
   body {
     overflow: hidden;
