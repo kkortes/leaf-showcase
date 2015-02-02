@@ -1,5 +1,5 @@
 <div class="fullwidth">
-  <div class="crow" style="padding-bottom:100px;">
+  <div class="crow" style="padding-bottom:100px;height:100%;">
     <div class="ws-12 text-center text-white">
       <h1>
       <i class="icon icon-leaf text-green"></i>

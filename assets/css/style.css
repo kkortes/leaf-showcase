@@ -8,6 +8,9 @@ body.page-index .icon-leaf {
   font-size: 100px;
   line-height: 100px;
 }
+body.page-icons .flip {
+  display: inline-block;
+}
 body.page-examples .image.platform {
   background-image: url("../image/imac.png");
   background-size: cover;

@@ -1,6 +1,6 @@
 <div class="modal">
   <div class="modal-inner crow no-gutter">
-    <div class="container">
+    <div class="nest">
       <div class="crow bg-white card no-gutter" style="display:block;">
         <div class="ws-12">
           <div class="bg-teal tile" style="padding:10px 0px; width:100%;">
@@ -26,8 +26,8 @@
               .modal > .modal-inner
 
               <h2>Consider using</h2>
-              <a href="<?=$app->url?>grid">&.crow</a> on .modal-inner to centerize .container<br />
-              <a href="<?=$app->url?>grid">.crow</a> in .container to access the grid inside the modal<br />
+              <a href="<?=$app->url?>grid">&.crow</a> on .modal-inner to centerize .nest<br />
+              <a href="<?=$app->url?>grid">.crow</a> in .nest to access the grid inside the modal<br />
               .text-{color}<br />
               .bg-{color}<br />
               .tile

@@ -1,6 +1,6 @@
 <div class="bot bg-blue-grey bg-plus-2 text-white">
   <div class="fullwidth">
-    <div class="container">
+    <div class="nest">
       <div class="crow">
         <div class="ws-12">
 	        Leaf CSS Framework by <a href="http://twitter.com/kortekim">@kortekim</a> and <a href="<?=$app->url?>getting-started">you?</a>

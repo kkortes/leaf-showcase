@@ -1,7 +1,7 @@
 <?
 $component = $app->get('components/buttons');
 ?>
-<div class="container">
+<div class="nest">
   <div class="crow up">
     <div class="ws-8">
       <h1>

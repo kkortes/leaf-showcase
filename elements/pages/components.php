@@ -4,7 +4,7 @@
     $class = explode('/', $module);
     $class = end($class);
   ?>
-  <div class="container">
+  <div class="nest">
     <div class="crow mod-row no-gutter up">
       <div class="ws-3">
         <div class="mod mod-<?=$class?>">

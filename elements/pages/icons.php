@@ -1,4 +1,4 @@
-<div class="container">
+<div class="nest">
   <div class="crow up">
     <div class="ws-8">
       <h1>
@@ -24,7 +24,7 @@
       <div class="label">Example (inspect me):</div>
       <div class="spacer quarter"></div>
 
-      <div class="waves-effect circle bg-white" style="width:45px;">
+      <div class="circle bg-white" style="width:45px;">
         <i class="icon icon-cog text-black"></i>
       </div>
     </div>

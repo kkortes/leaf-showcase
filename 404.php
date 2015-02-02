@@ -1,4 +1,4 @@
-<div class="container">
+<div class="nest">
 	<h1>Page not found</h1>
 	<p>Error 404: page not found
 	</p>

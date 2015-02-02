@@ -3,7 +3,7 @@
     <div class="bg-plus-2" style="padding:6px 0;">
     </div>
 
-    <div class="container">
+    <div class="nest">
       <div class="crow no-gutter">
         <div class="ws-12">
           <div class="clearfix show-on-mobile base-padding">
