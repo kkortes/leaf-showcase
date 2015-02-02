@@ -49,6 +49,9 @@ include "base.php";
             ?>
           </ul>
         </div>
+
+        <a href="#" class="drop down left prev icon icon-arrow-left5"></a>
+        <a href="#" class="drop down right next icon icon-arrow-right5"></a>
       </div>
 
     </div>

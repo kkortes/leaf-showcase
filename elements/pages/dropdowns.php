@@ -96,7 +96,7 @@
 				</div>
 
 				<div class="button bg-cyan relative">
-					Drop down, stick right (inset)
+					Drop up, stick right (inset)
 					<div class="drop up right card bg-white base-padding">
 						.drop.up.right
 					</div>

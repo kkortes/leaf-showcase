@@ -9,8 +9,8 @@
       .icon.icon-{icon}
 
       <h2>Consider using</h2>
-      .text-color<br />
-      .bg-color
+      .text-{color}<br />
+      .bg-{color}
 
       <h2><i class="icon icon-warning"></i> Side note(s)</h2>
       Icons by <a href="http://icomoon.io/" target="_blank">Icomoon</a>. Icomoon is easy to use and setup. In /leaf/assets/fonts you'll find a /icomoon directory. Visit <a href="http://icomoon.io/app/" target="_blank">http://icomoon.io/app/</a>, click "import icons" and choose <i>selection.json</i> from your icomoon directory and all icons will popup. You then can add/remove/edit icons and download a new package with your custom icons. Simply replace the /icomoon directory with your new one.
@@ -55,14 +55,15 @@
         <div class="front">
           <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
             <i style="word-break:break-word;">
-              <i class="icon icon-<?=$icon->properties->name?>"></i>
+              <i class="icon icon-<?=$icon->properties->name?>"></i><br />
+              <?=$icon->properties->name?>
             </i>
           </div>
         </div>
-        <div class="back">
-          <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
+        <div class="back text-center">
+          <div class="circle center bg-<?=$color?> bg-minus-2 base-padding" style="width:50%;">
             <i style="word-break:break-word;">
-              <?=$icon->properties->name?>
+              <i class="icon icon-<?=$icon->properties->name?>"></i>
             </i>
           </div>
         </div>

@@ -23,19 +23,13 @@
             </form>
           </div>
 
-          <div class="drop down-left" style="padding-left:10px;">
-            <a href="https://gittip.com/kortekim" target="_blank" class="card image">
-              <img src="http://s30.postimg.org/rz9fb6rz1/Screen_Shot_2014_07_09_at_20_58_41.png" />
-            </a>
-
-            <div class="drop down-left" style="padding-left:10px;padding-top:5px;">
-              <div class="relative">
-                <div class="image card bg-white" style="padding:3px;">
-                  <img src="http://s11.postimg.org/8yxr24w0v/bitcoin.png" />
-                </div>
-                <div class="drop bottom-left bg-white card" style="width:310px;padding:5px;">
-                  1PiRdutMwncxkjp8quxQiF1qFUBGBjwhfg
-                </div>
+          <div class="drop down-left" style="padding-left:10px;padding-top:5px;">
+            <div class="relative">
+              <div class="image card bg-white" style="padding:3px;">
+                <img src="http://s11.postimg.org/8yxr24w0v/bitcoin.png" />
+              </div>
+              <div class="drop bottom-left bg-white card" style="width:310px;padding:5px;">
+                1PiRdutMwncxkjp8quxQiF1qFUBGBjwhfg
               </div>
             </div>
           </div>

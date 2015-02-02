@@ -6,6 +6,12 @@
 			<h2>News</h2>
 
 			<hr />
+			<h3>Major clean-up.<br /> <span class="small text-grey">15 January 2015</span></h3>
+			<p>
+			I've been cleaning up Leaf's code today. A major sweep through almost all files have been made. Also made notice of that some of you wants a theme based on Leaf, not just the framework itself. This is something I will be concidering doing. More components will be made if that will be the case, stay tuned!
+			</p>
+
+			<hr />
 			<h3>Great feedback.<br /> <span class="small text-grey">23 December 2014</span></h3>
 			<p>
 			Email and password input fields are now added to the styled input fields. Keep the feedback coming, I'm not updating Leaf every day, but I do check all the feedback I get.
