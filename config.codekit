@@ -26,12 +26,21 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/coffee\/script.coffee",
-		"minifyOutput": 1,
-		"outputAbbreviatedPath": "\/assets\/coffee\/script.js",
+		"minifyOutput": 0,
+		"outputAbbreviatedPath": "\/assets\/js\/script.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/image\/cows.jpg": {
 		"fileType": 16384,
@@ -255,7 +264,7 @@
 		},
 	"\/assets\/js\/script.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/script.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/script-min.js",
@@ -263,6 +272,22 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/styl\/style.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/assets\/styl\/style.styl",
+		"outputAbbreviatedPath": "\/assets\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
@@ -1206,10 +1231,10 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/coffee\/script.coffee",
 		"minifyOutput": 0,
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/coffee\/script.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/script.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/leaf-css-framework\/css\/base.css": {
@@ -1270,148 +1295,356 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.js": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/Gruntfile.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.js",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/min\/waves-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/min\/Gruntfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.min.js": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/imagesloaded.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/waves.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/dist\/min\/waves.min-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/imagesloaded.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/min\/imagesloaded-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/prims.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/prims.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/prims.js": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/imagesloaded.pkgd.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/prims.js",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/min\/prims-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/imagesloaded.pkgd.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/min\/imagesloaded.pkgd-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/waves.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/waves.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/waves.min.js": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/imagesloaded.pkgd.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/waves.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/docs\/static\/min\/waves.min-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/imagesloaded.pkgd.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/min\/imagesloaded.pkgd.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/Gruntfile.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/Gruntfile.js",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/min\/Gruntfile-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/README.md": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/README.md",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/README.html",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/css\/waves.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/css\/waves.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/js\/waves.js": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/append.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/js\/waves.js",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/js\/min\/waves-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/append.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/append-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/less\/waves.less": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/basics.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/basics.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/basics-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/data-uri.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/data-uri.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/data-uri-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/blue-shell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24555,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/blue-shell.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/blue-shell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/bowser-jr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36987,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/bowser-jr.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/bowser-jr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/thunder-cloud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24588,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/thunder-cloud.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/img\/thunder-cloud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/jquery-fail.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/jquery-fail.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/jquery-fail-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/jquery-success.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/jquery-success.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/jquery-success-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/local-files.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/local-files.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/local-files-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/no-images.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/no-images.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/no-images-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/non-element.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/non-element.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/non-element-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/selector-string.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/selector-string.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/selector-string-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/single-element.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/single-element.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/min\/single-element-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/tests.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/imagesloaded\/test\/tests.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/min\/waves-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/waves.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/dist\/min\/waves.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/prims.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/prims.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/prims.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/prims.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/min\/prims-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/waves.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/waves.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/waves.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/waves.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/docs\/static\/min\/waves.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/js\/waves.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/js\/waves.js",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/js\/min\/waves-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/less\/waves.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -1419,8 +1652,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/less\/waves.less",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/css\/waves.css",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/less\/waves.less",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/css\/waves.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1431,15 +1664,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/sass\/waves.sass": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/sass\/waves.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/sass\/waves.sass",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/css\/waves.css",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/sass\/waves.sass",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/css\/waves.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1447,32 +1680,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/scss\/waves.scss": {
+	"\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/scss\/waves.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/scss\/waves.scss",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/Waves-master\/src\/css\/waves.css",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/scss\/waves.scss",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/libs\/waves\/src\/css\/waves.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/bower_components\/leaf-css-framework\/js\/script.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/script.js",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/js\/min\/script-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/leaf-css-framework\/README.md": {
 		"enableFootnoteSupport": 0,
@@ -1918,6 +2140,22 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/bower_components\/leaf-css-framework\/styl\/components\/forms.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/styl\/components\/forms.styl",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/styl\/css\/forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/bower_components\/leaf-css-framework\/styl\/components\/image.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2062,24 +2300,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/bower_components\/leaf-css-framework\/styl\/css\/flipcard.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/styl\/css\/flipcard.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/bower_components\/leaf-css-framework\/styl\/forms.styl": {
+	"\/bower_components\/leaf-css-framework\/styl\/mixins-optional.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"fileType": 8,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"importCSS": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/styl\/forms.styl",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/css\/forms.css",
+		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/styl\/mixins-optional.styl",
+		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/css\/mixins-optional.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2096,22 +2325,6 @@
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/styl\/mixins.styl",
 		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/css\/mixins.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
-	"\/bower_components\/leaf-css-framework\/styl\/modules.styl": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/styl\/modules.styl",
-		"outputAbbreviatedPath": "\/bower_components\/leaf-css-framework\/css\/modules.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2730,10 +2943,10 @@
 	"browserRefreshDelay": 0,
 	"coffeeAutoOutputPathEnabled": 1,
 	"coffeeAutoOutputPathFilenamePattern": "*.js",
-	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathRelativePath": "..\/js",
 	"coffeeAutoOutputPathReplace1": "",
 	"coffeeAutoOutputPathReplace2": "",
-	"coffeeAutoOutputPathStyle": 0,
+	"coffeeAutoOutputPathStyle": 2,
 	"coffeeCreateSourceMap": 0,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2853,7 +3066,7 @@
 			"flagValue": -1
 			}
 		},
-	"coffeeMinifyOutput": 1,
+	"coffeeMinifyOutput": 0,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",

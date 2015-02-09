@@ -47,7 +47,6 @@
       <br /><br />
       Cheers to Google for setting beautiful standards to interfaces! Amen.
       </p>
-      <div class="spacer"></div>
     </div>
   </div>
 </div>

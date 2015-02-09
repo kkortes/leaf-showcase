@@ -50,9 +50,6 @@ $component = $app->get('components/buttons');
       <a href="#" class="button circle bg-cyan">
         <i class="icon icon-plus3 text-white"></i>
       </a>
-      <a href="#" class="button waves-button circle bg-cyan waves-effect">
-        <i class="icon icon-plus3 text-white"></i>
-      </a>
     </div>
   </div>
     <h2>Raw output</h2>

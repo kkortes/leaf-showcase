@@ -3,8 +3,10 @@
   <li>
     <a href="#" class="list-item">
       <div class="text">
-        Duis aute irure dolor<br />
-        <span class="text-grey small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</span>
+        <span>
+          Duis aute irure dolor<br />
+          <span class="text-grey small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</span>
+        </span>
       </div>
     </a>
   </li>

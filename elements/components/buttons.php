@@ -1,10 +1,11 @@
 <div class="nest" id="back-here">
 
- <div class="spacer"></div>
+<!--
+  <div class="spacer"></div>
 
   <div class="crow">
     <div>
-      <a href="#back-here" class="waves-effect circle button bg-cyan text-white">
+      <a href="#back-here" class="circle button bg-cyan text-white">
         <span>
           <i class="icon icon-flag"></i>
         </span>
@@ -20,13 +21,13 @@
         Regular button with waves
       </a>
     </div>
-  </div>
+  </div>-->
 
   <div class="spacer half"></div>
 
   <div class="crow">
     <div>
-      <a href="#back-here" class="waves-effect button flat text-cyan ">
+      <a href="#back-here" class="waves-effect button flat text-cyan">
         Flat button with waves
       </a>
     </div>

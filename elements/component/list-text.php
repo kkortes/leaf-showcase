@@ -32,24 +32,20 @@ include "base.php";
         <li>
           <a href="http://google.com" target="_blank" class="list-item">
             <div class="text">
-              Information about Google<br />
-              <span class="text-grey small">Click here to read more about google and use their amazing search engine!</span>
+              <span>
+                Information about Google<br />
+                <span class="text-grey small">Click here to read more about google and use their amazing search engine!</span>
+              </span>
             </div>
           </a>
         </li>
         <li>
           <a href="<?=$app->url?>" class="list-item">
             <div class="text">
-              Information about Leaf<br />
-              <span class="text-grey small">Click here to read more about leaf and what it has to offer!</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.zombo.com/" target="_blank" class="list-item">
-            <div class="text">
-              Feeling bored?<br />
-              <span class="text-grey small">Click here!</span>
+              <span>
+                Information about Leaf<br />
+                <span class="text-grey small">Click here to read more about leaf and what it has to offer!</span>
+              </span>
             </div>
           </a>
         </li>

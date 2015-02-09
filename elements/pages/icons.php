@@ -52,11 +52,11 @@
       $color = $colors[rand(0, count($colors)-1)];
       ?>
       <div class="w-7">
-        <div class="tile center bg-<?=$color?> bg-minus-2 base-padding" style="width:100%;">
-          <i style="word-break:break-all;">
+        <div class="tile center bg-<?=$color?> bg-minus-2" style="width:100%;">
+          <span class="text-center" style="word-break: break-all;">
             <i class="icon icon-<?=$icon->properties->name?>"></i><br />
             <?=$icon->properties->name?>
-          </i>
+          </span>
         </div>
       </div>
       <?
