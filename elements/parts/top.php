@@ -30,11 +30,11 @@
                   'link' => true,
                   'active' => (isset($_GET['page']) && $_GET['page'] == 'news') ? true : false
                 ),
-                $app->url.'examples' => array(
+                /*$app->url.'examples' => array(
                   'text' => 'Examples',
                   'link' => true,
                   'active' => (isset($_GET['page']) && $_GET['page'] == 'examples') ? true : false
-                ),
+                ),*/
                 $app->url.'colors' => array(
                   'text' => 'Colors',
                   'link' => true,
